@@ -1,11 +1,9 @@
 import './App.css';
-import Navbar from './components/navbar/Navbar';
-import Home from './components/home/Home';
-import About from './components/about/About';
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
 import AnimateCursor from './animated/AnimateCursor';
+import Main from './pages/Main';
 
 
 
@@ -83,9 +81,7 @@ function App() {
     <div className="App">
       <AnimateCursor/>
       <Particles options={options} init={particlesInit} />
-      <Navbar/>
-      <Home />
-      <About />
+      <Main/>
     </div>
   );
 }
