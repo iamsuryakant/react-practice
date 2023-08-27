@@ -17,7 +17,7 @@ section .content{
 section .title{
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 13%;
 }
 
 section .title span{
@@ -47,14 +47,19 @@ section .title span::after{
 }
 
 .about .left-side img{
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
     border-radius: 12px;
-
 }
 
 .about .about-details .left-side{
     width: 45%;
 }
+
+.about .about-details .right-side{
+    width: 55%;
+}
+
+
 
